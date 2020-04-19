@@ -35,6 +35,10 @@
 *.rar
 *.lnk
 #----------------------------------------------------
+#INCLUDE_AT_THE_END
+!/CMD_extensions/3rd_party/nircmd/*.exe
+!/CMD_extensions/3rd_party/nircmd/*.chm
+#----------------------------------------------------
 #----------------------------------------------------
 #self-files
 !*.gitignore
