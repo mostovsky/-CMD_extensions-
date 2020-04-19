@@ -1,0 +1,13 @@
+[CMD_extensions]_TODO
+_______________________
+ALL
+* move tasks from different files to here
+* 
+* 
+_______________________
+FOR Back-Up
+* Change winrar to spec file with choose archive type
++* use type in auto-backup
+* 
+* 
+_______________________
