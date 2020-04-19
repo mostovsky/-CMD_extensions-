@@ -1,0 +1,14 @@
+File-list of files and dirs with SUB-dirs [22:05:27]:  
+.gitignore
+Add_label__todo.txt - Ярлык.lnk
+CMD Fix - TODO.txt - Ярлык.lnk
+CMD_extensions
+CMD_extensions in ProgramFiles.lnk
+CMD_extensions.exe
+CMD_extensions.exe__2020_04_19___19_53_34_.rar
+CMD_extensions.exe__2020_04_19___19_58_00_.rar
+todo-BackUpWithDate.txt - Ярлык.lnk
+[CMD_extensions]_TODO.txt
+Косяк работы BackUp with date (auto) для зашифрованных файлов __ 2015-12-22_1122.avi - Ярлык.lnk
+Новая папка
+ошибка при создании резерва в папке iphone.png - Ярлык.lnk
