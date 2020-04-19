@@ -1,9 +1,0 @@
-File-list of files and dirs [22:19:16]:  
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\CMD_extensions.exe__2020_04_19___19_02_58_.rar
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\CMD_extensions.exe__2020_04_19___19_04_24_.rar
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\CMD_extensions.exe__2020_04_19___19_33_04_.rar
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\CMD_extensions.exe__2020_04_19___19_42_14_.rar
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\file-list.txt
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\file-list.txt__22_07_13,37.txt
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\file-list.txt__22_18_27,96.txt
-D:\[data]\[soft]\_I_do_It_(by_Most)\[CMD_extensions]\Новая папка.[456]\file-list.txt__22_19_16,58.txt
