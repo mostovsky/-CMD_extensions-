@@ -26,6 +26,7 @@ REM echo.
 if not ""=="%~1" echo. & call :PainText 0e "1st_parameter = " & echo  "%~1" &	rem DO NOT USE set "1st_parameter=%~1"
 if not ""=="%~2" call :PainText 0e "2nd_parameter = " & echo  "%~2" &	rem DO NOT USE set "2nd_parameter=%~2"
 echo.
+cd /d "%~1"
 call :PainText 0F "cd = " & echo "%cd%"
 
 set "FullFilePath=%~1\%NameToSave%" & 								rem DO NOT USE SPACES NEAR "=" SYMBOL
