@@ -1,13 +1,20 @@
 [CMD_extensions]_TODO
 _______________________
-ALL
+ALL:
 * move tasks from different files to here
 * add .mp4 + .m4a
 * 
 _______________________
-FOR Back-Up
+FOR Back-Up:
 * Change winrar to spec file with choose archive type
 +* use type in auto-backup
 * 
 * 
+_______________________
+FOR Serials:
+* Create null-file from contex menu: ready to see
+* html-generation
+* 
+_______________________
+_______________________
 _______________________
