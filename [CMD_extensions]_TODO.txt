@@ -2,6 +2,7 @@
 _______________________
 ALL:
 * move tasks from different files to here
+* why not work context menu inside dir
 * add .mp4 + .m4a
 * in install generate ProgramFiles right-dir
 * add CreateRepo in context-menu
@@ -16,6 +17,10 @@ _______________________
 FOR Serials:
 * Create null-file from contex menu: ready to see
 * html-generation
+* start on dir
+* 
+fail:
+* file "Preacher (Season 4) WEB-DLRip - Ярлык.lnk" in dir prevent found new episode (start vlc) in "D:\[downloads]\[DONE]\serial\Проповедник (сезон 3) Preacher (2018) WEB-DLRip - LostFilm"
 * 
 _______________________
 UPDATE:
