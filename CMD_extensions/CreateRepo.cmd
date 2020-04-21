@@ -30,7 +30,8 @@ if not ""=="%~1" (
 	cd /d "%~1"
 	echo Current dir changed to input parameter "%~1"
 ) else (
-	echo Current dir NOT changed. Used file-path dir.
+	call :PainText f4 "Current dir NOT specified." & echo. & echo To use file-path "%~dp0" dir press any-key twice or  & call :PainText 0F "close window" & echo  or ctrl+c in cmd.
+	pause & pause & pause
 )
 if not ""=="%~2" call :PainText 0e "2nd_parameter = " & echo  "%~2" &	rem DO NOT USE set "2nd_parameter=%~2"
 echo.
@@ -42,31 +43,29 @@ REM pause
 set "ToDoName=%todo_prefix%%name_dir:]=%%todo_postfix%"
 set "ToDoName=%ToDoName:[=%"
 set "ToDoName_txt=%ToDoName%.txt"
-if not exist %ToDoName_txt% (
-	REM echo  Create TODO file
-	call :PainText 02 "Create TODO file"
-	REM echo %ToDoName% >> %ToDoName_txt%
-	echo %todo_prefix%%name_dir%%todo_postfix% >> %ToDoName_txt%
-	echo. >> %ToDoName_txt%
-	echo _____________________________________ >> %ToDoName_txt%
-	echo. >> %ToDoName_txt%
-	echo links: >> %ToDoName_txt%
-	echo * >> %ToDoName_txt%
-	echo. >> %ToDoName_txt%
-	echo _____________________________________ >> %ToDoName_txt%
-	echo _____________________________________ >> %ToDoName_txt%
+REM if not exist "%ToDoName_txt%" (
+if not exist "%cd%\%ToDoName_txt%" (
+	call :PainText 02 "Create TODO file" & echo.
+	echo %todo_prefix%%name_dir%%todo_postfix% >> "%ToDoName_txt%"
+	echo. >> "%ToDoName_txt%"
+	echo _____________________________________ >> "%ToDoName_txt%"
+	echo. >> "%ToDoName_txt%"
+	echo links: >> "%ToDoName_txt%"
+	echo * >> "%ToDoName_txt%"
+	echo. >> "%ToDoName_txt%"
+	echo _____________________________________ >> "%ToDoName_txt%"
+	echo _____________________________________ >> "%ToDoName_txt%"
 	
 ) else (
-	REM echo ToDo file already exist. Do nothing.
 	call :PainText 04 "ToDo file already exist. Do nothing." & echo.
 )
 echo starting todo file...
-%ToDoName_txt%
+start "" "%ToDoName_txt%"
 echo ToDo operations DONE
 REM pause
 if exist .git ( 
 	REM echo Repo already exist. Do nothing
-	call :PainText 04 "Repo already exist. Do nothing." & echo.
+	call :PainText 04 "Repo already exist. Do nothing. " & echo.
 ) else (
 	REM echo Create Repo
 	call :PainText 02 "Create Repo" & echo.

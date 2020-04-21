@@ -18,5 +18,11 @@ FOR Serials:
 * html-generation
 * 
 _______________________
+UPDATE:
+* add to commands
+* make command "add to this dir"
+* update with file "settings"
+* make cooperation with Auto_BackUp to auto-update
+* 
 _______________________
 _______________________
