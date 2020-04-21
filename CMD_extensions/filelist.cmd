@@ -1,4 +1,5 @@
 REM pause
+:: in resulted files will be DOS-code (if cyrillic symbols)
 :: ----------------------------------------------------------------------------------------------------------------------------------
 :: for color display
 :: cls && color 08
@@ -73,10 +74,10 @@ if exist "%FullFilePath%" (
 REM pause
 :: ----------------------------------------------------------------------------------------------------------------------------------
 if "%~2"=="sub"  (
-	echo File-list of files and dirs [%time:~0,-3%]: >> "%FullFilePath%" 
+	echo File-list of files and dirs with SUB-dirs [%time:~0,-3%]: >> "%FullFilePath%" 
 	dir /b /s >> "%FullFilePath%" 
 ) else (
-	echo File-list of files and dirs with SUB-dirs [%time:~0,-3%]: >> "%FullFilePath%" 
+	echo File-list of files and dirs [%time:~0,-3%]: >> "%FullFilePath%" 
 	dir /b >> "%FullFilePath%" 
 )
 :: ----------------------------------------------------------------------------------------------------------------------------------
