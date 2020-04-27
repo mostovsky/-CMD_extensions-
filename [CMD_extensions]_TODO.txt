@@ -21,6 +21,7 @@ FOR Serials:
 * 
 fail:
 * file "Preacher (Season 4) WEB-DLRip - Ярлык.lnk" in dir prevent found new episode (start vlc) in "D:\[downloads]\[DONE]\serial\Проповедник (сезон 3) Preacher (2018) WEB-DLRip - LostFilm"
+* 4.lnk MAKES fail: not Preacher.S03E04.WEB-DLRip.Rus.Eng.DV.LostFilm.avi started
 * 
 _______________________
 UPDATE:
