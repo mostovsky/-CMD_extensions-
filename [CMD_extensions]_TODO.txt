@@ -6,6 +6,7 @@ ALL:
 * add .mp4 + .m4a
 * in install generate ProgramFiles right-dir
 * add CreateRepo in context-menu
+* function TV-serial-watch by file "__already_on_the_flash_XX": delete old series and copy new series (check free space)
 * 
 _______________________
 FOR Back-Up:
