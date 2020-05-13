@@ -12,6 +12,7 @@ _______________________
 FOR Back-Up:
 * Change winrar to spec file with choose archive type
 +* use type in auto-backup
+* make backup files with "*.backup.rar" past-name for exclude in .gitignore backup-files
 * 
 * 
 _______________________
