@@ -1,6 +1,7 @@
 [CMD_extensions]_TODO
 _______________________
 ALL:
+* add nor start browser (as in quest) for md-preview
 * make installer automatic (use some free app)
 * move tasks from different files to here
 * add .mp4 + .m4a
