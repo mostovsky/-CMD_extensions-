@@ -37,4 +37,9 @@ UPDATE:
 * make cooperation with Auto_BackUp to auto-update
 * 
 _______________________
+REPO:
+* copy in buffer %path_to_repo% for local add
+* 
+
+_______________________
 _______________________
