@@ -6,3 +6,4 @@ echo startting preview at http://localhost:6419/
 start "" "%PathToGrip%"
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "http://localhost:6419/"
 pause
+rem or use https://jbt.github.io/markdown-editor/
