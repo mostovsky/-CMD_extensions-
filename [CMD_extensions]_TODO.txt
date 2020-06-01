@@ -39,6 +39,12 @@ UPDATE:
 * make cooperation with Auto_BackUp to auto-update
 * 
 _______________________
+md-preview:
+* check for grep-python-plugin exist (and ask to install)
+* need to make start it in dir (make with sub-menu of start in browsers)
+* also make for html start in all browsers
+* 
+_______________________
 REPO:
 * copy in buffer %path_to_repo% for local add
 * 
