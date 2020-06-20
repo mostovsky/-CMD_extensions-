@@ -66,6 +66,7 @@ file-list*.txt
 !/CMD_extensions/3rd_party/nircmd/*.exe
 !/CMD_extensions/3rd_party/nircmd/*.chm
 !/CMD_extensions_release.exe
+!/CMD_extensions_release*.exe
 !/CMD_extensions/*.cmd
 !md-preview.cmd*-*.lnk
 #----------------------------------------------------
@@ -73,5 +74,6 @@ file-list*.txt
 #self-files
 !*.gitignore
 !*.md
+#!*.gitattributes
 #----------------------------------------------------
 #----------------------------------------------------

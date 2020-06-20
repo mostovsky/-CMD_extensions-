@@ -9,7 +9,7 @@ Install-file:	`.exe [rar-sfx]`
 This is a small progect which add special menus to the context menu of Windows explorer.\
 Last source code may be not inside last release (last release - only stable version).
 ***
-After install in context menu will be created menu like this:
+After install in context menu will be added menu like this:
 ***
 **DIR-MENU:**\
 `CMD_extensions`\
@@ -20,7 +20,17 @@ After install in context menu will be created menu like this:
 &emsp;&emsp;		-> `Create file-list with sub-dir`	[create .txt-file with name of files in dir and in sub-dirs]\
 &emsp;&emsp;		-> `Add Label (DIR)`				[rename dir with entered name]\
 &emsp;	-> `dir_menu_special`\
-&emsp;&emsp;		-> `CreateRepo`						[create repo and todo.txt file]
+&emsp;&emsp;		-> `CreateRepo`						[create repo and todo.txt file]\
+&emsp;&emsp;		-> `mdpreview`						[menu for open README.md file]\
+&emsp;&emsp;&emsp;		-> `MDpreview_all`						[open README.md file in all browsers]\
+&emsp;&emsp;&emsp;		-> `MDpreview_chrome`					[open README.md file in chrome browser]\
+&emsp;&emsp;&emsp;		-> `MDpreview_firefox`					[open README.md file in firefox browser]\
+&emsp;&emsp;&emsp;		-> `MDpreview_opera`					[open README.md file in opera browser]\
+&emsp;&emsp;&emsp;		-> `MDpreview_yandex`					[open README.md file in yandex browser]\
+&emsp;&emsp;&emsp;		-> `MDpreview_IE`						[open README.md file in IE]\
+&emsp;&emsp;&emsp;		-> `MDpreview_edge`						[open README.md file in edge]\
+&emsp;&emsp;&emsp;		-> `MDpreview_avast`					[open README.md file in avast browser]\
+&emsp;&emsp;&emsp;		-> `MDpreview_safari`					[open README.md file in safari browser (_now not supports Win platform_)]\
 ***
 **FILE-MENU:**\
 `CMD_extensions`\
@@ -33,5 +43,7 @@ After install in context menu will be created menu like this:
 &emsp;&emsp;		-> `Start_with_serial`			[play episode and than if user answer `+` increment of %episode_done%]\
 &emsp;&emsp;		-> `RenameBackWithNo_`\
 &emsp;&emsp;		-> `Add_symbol_`
+***
+Also `.md` files will be try to open with [python-grip](https://github.com/joeyespo/grip/) (_if installed_).
 ***
 ***

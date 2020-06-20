@@ -40,6 +40,12 @@ set "NeededBrowser="
 echo ---
 setlocal enabledelayedexpansion
 ::---
+if "%Second%"=="DEF" (
+	set "NeededBrowser=CH"
+	echo Will be open only one browser - chrome now
+	goto NotAllBrowsers
+)
+::---
 if NOT "%Second%"=="" (
 	if NOT "%Second%"=="ALL" (
 		rem NotAllBrowsers
