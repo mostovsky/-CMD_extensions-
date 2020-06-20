@@ -1,6 +1,7 @@
 [CMD_extensions]_TODO
 _______________________
 ALL:
+* decide with exe-files releases (size of repo)
 * add start browser (as in quest) for md-preview
 * create association for md-files (start preview and open notepad)
 * make installer automatic (use some free app)
@@ -43,6 +44,8 @@ md-preview:
 * check for grep-python-plugin exist (and ask to install)
 * need to make start it in dir (make with sub-menu of start in browsers)
 * also make for html start in all browsers
+* add edit in default notepad (if not exist another)
+* open in another browser if needed not exist (not for multiple)
 * 
 _______________________
 REPO:
