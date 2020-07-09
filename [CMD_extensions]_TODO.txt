@@ -24,6 +24,8 @@ FOR Back-Up:
 * 
 _______________________
 FOR Serials:
+* 
+* in serial: rename for "SERIALdone" (add "_" symbol) don't work on all prev-names (like this: is 12 done, will be renamed 1st, 10th and eleventh)
 * Create null-file from contex menu: ready to see
 * html-generation
 * start on dir
