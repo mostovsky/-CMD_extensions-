@@ -54,5 +54,10 @@ REPO:
 * copy in buffer %path_to_repo% for local add
 * 
 
+_____________________________
+links:
+* https://commons.wikimedia.org/wiki/Help:Creating_a_DjVu_file/JPG-DJVU_conversion_scripts
+* 
+
 _______________________
 _______________________
