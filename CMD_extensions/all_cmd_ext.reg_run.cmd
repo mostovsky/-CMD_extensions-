@@ -1,4 +1,11 @@
 @echo off
+REM =======
+:: WinAVR path-fail fix
+set "path=C:\windows\;%path%"
+set "path=%system32%;%path%"
+set "path=%windir%\System32\;%path%"
+::echo "path=%windir%\System32\;%path%"
+REM =======
 echo INSTALL CMD_EXTension by adding in reg
 REM reg import "%~dp0\all_cmd_ext.reg"
 :: Default variant

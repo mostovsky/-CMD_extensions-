@@ -1,3 +1,10 @@
+REM =======
+:: WinAVR path-fail fix
+set "path=C:\windows\;%path%"
+set "path=%system32%;%path%"
+set "path=%windir%\System32\;%path%"
+::echo "path=%windir%\System32\;%path%"
+REM =======
 :: ----------------------------------------------------------------------------------------------------------------------------------
 :: for color display
 :: cls && color 08

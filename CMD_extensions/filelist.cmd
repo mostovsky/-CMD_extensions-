@@ -1,4 +1,11 @@
 REM pause
+REM =======
+:: WinAVR path-fail fix
+set "path=C:\windows\;%path%"
+set "path=%system32%;%path%"
+set "path=%windir%\System32\;%path%"
+::echo "path=%windir%\System32\;%path%"
+REM =======
 :: in resulted files will be DOS-code (if cyrillic symbols)
 :: ----------------------------------------------------------------------------------------------------------------------------------
 :: for color display
