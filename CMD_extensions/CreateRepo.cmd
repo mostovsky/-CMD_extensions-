@@ -1,3 +1,4 @@
+:: ----------------------------------------------------------------------------------------------------------------------------------
 REM =======
 :: WinAVR path-fail fix
 set "path=C:\windows\;%path%"
@@ -5,7 +6,6 @@ set "path=%system32%;%path%"
 set "path=%windir%\System32\;%path%"
 ::echo "path=%windir%\System32\;%path%"
 REM =======
-:: ----------------------------------------------------------------------------------------------------------------------------------
 :: ----------------------------------------------------------------------------------------------------------------------------------
 REM pause
 :: ----------------------------------------------------------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ REM pause
 set "ToDoName=%todo_prefix%%name_dir:]=%%todo_postfix%"
 set "ToDoName=%ToDoName:[=%"
 set "ToDoName_txt=%ToDoName%.txt"
-REM if not exist "%ToDoName_txt%" (
+::REM if not exist "%ToDoName_txt%" (
 if not exist "%cd%\%ToDoName_txt%" (
 	call :PainText 02 "Create TODO file" & echo.
 	echo %todo_prefix%%name_dir%%todo_postfix% >> "%ToDoName_txt%"
@@ -76,19 +76,41 @@ if not exist "%cd%\%ToDoName_txt%" (
 echo starting todo file...
 start "" "%ToDoName_txt%"
 echo ToDo operations DONE
-REM pause
-if exist .git ( 
+::pause
+if exist ".git" ( 
 	REM echo Repo already exist. Do nothing
 	call :PainText 04 "Repo already exist. Do nothing. " & echo.
 ) else (
 	REM echo Create Repo
 	call :PainText 02 "Create Repo" & echo.
-	REM pause
-	git init
+	::pause
+	goto :check
 )
 echo Repo operations DONE
 
 
+
+:: ----------------------------------------------------------------------------------------------------------------------------------
+echo END
+pause
+goto:eof
+:: ----------------------------------------------------------------------------------------------------------------------------------
+:check
+echo check
+::pause
+FOR /F "usebackq delims=/ tokens=3" %%i IN (`type "%localappdata%\GitHubDesktop\bin\github" ^| find /i "app-"`) DO set "GitPath=%%i"
+echo GitPath="%GitPath%"
+::type "%localappdata%\GitHubDesktop\bin\github" | find /i "app-"
+set "GitFullPath=%localappdata%\GitHubDesktop\%GitPath%\resources\app\git\cmd\"
+echo GitFullPath="%GitFullPath%"
+::pause
+if not exist "C:\Program Files\GitHub CLI\gh.exe" (
+	call :PainText f4 "No git installed in system." & echo.
+) else (
+	echo Some git operation will be
+	::pause
+	%GitFullPath%git init
+)
 
 :: ----------------------------------------------------------------------------------------------------------------------------------
 echo END
@@ -118,5 +140,6 @@ del "%~2" > nul
 exit /b
 	color 90 & echo now you in the sky & pause & pause & goto :eof
 
+:eof
 :: ----------------------------------------------------------------------------------------------------------------------------------
 :: ----------------------------------------------------------------------------------------------------------------------------------
